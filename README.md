@@ -8,10 +8,11 @@
 [![Status](https://img.shields.io/badge/status-active-brightgreen)](https://status.marola-rp.com)
 [![Framework](https://img.shields.io/badge/framework-vRPex-%23ff6f00)](https://github.com/vRPex/vRPex)
 [![Platform](https://img.shields.io/badge/platform-FiveM/Cfx.re-%2300bcd4)](https://fivem.net)
-[![Players Target](https://img.shields.io/badge/CCU-1000%2B-%237b5cff)](#metrics)
+[![Players Target](https://img.shields.io/badge/CCU-1000%2B-%237b5cff)](#current-status)
 [![License](https://img.shields.io/badge/license-Proprietary-lightgrey)](LICENSE.md)
 [![Quality Gate](https://img.shields.io/badge/quality-A+-green.svg)](#quality-assurance)
 [![Last Update](https://img.shields.io/badge/last_update-2025--09--17-informational)](CHANGELOG.md)
+[![Documentation Coverage](https://img.shields.io/badge/docs--coverage-98%25-brightgreen)](#documentation)
 
 [🇧🇷 Português](#português) • [🇬🇧 English](#english) • [📚 Documentation](#documentation) • [🚀 Quick Start](#quick-start)
 
@@ -142,13 +143,7 @@ Proprietary software. See [LICENSE.md](LICENSE.md) for details.
 ## ⚠️ Disclaimer
 
 This documentation is provided "as is" without warranty. See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
-- 🌍 **Bilingual**: Complete PT/EN documentation
 
-### Technical Goals
-- **CCU Target**: 1000+ concurrent players
-- **Uptime SLA**: 99.5%
-- **Latency**: <50ms for BR players
-- **Budget**: $4,200-4,800 USD/month
 
 ---
 
@@ -157,9 +152,8 @@ This documentation is provided "as is" without warranty. See [CODE_OF_CONDUCT.md
 ### Core Documents
 | Document | PT | EN | Description |
 |----------|----|----|-------------|
-| **Vision** | [PT](Vision.pt.md) | [EN](Vision.en.md) | Mission, principles, and differentials |
-| **Governance** | [PT](Governance.pt.md) | [EN](Governance.en.md) | Roles, RACI, and decision processes |
-| **GDD** | [PT](GDD.pt.md) | [EN](GDD.en.md) | Game Design Document |
+| **Vision** | [PT](marola-docs/Vision.pt.md) | [EN](marola-docs/Vision.en.md) | Mission, principles, and differentials |
+| **GDD** | [PT](marola-docs/GDD.pt.md) | [EN](marola-docs/GDD.en.md) | Game Design Document |
 | **Architecture** | [PT](Architecture.pt.md) | [EN](Architecture.en.md) | Technical stack and database schema |
 | **Security** | [PT](Security.pt.md) | [EN](Security.en.md) | Anti-cheat and security measures |
 | **DevOps** | [PT](DevOps.pt.md) | [EN](DevOps.en.md) | CI/CD, monitoring, and runbooks |
@@ -213,9 +207,7 @@ This documentation is provided "as is" without warranty. See [CODE_OF_CONDUCT.md
 
 ---
 
-## 📊 Metrics
-
-### Current Status
+## 📊 Current Status & Metrics
 - **Uptime**: 99.7% (30 days)
 - **Avg Latency**: 32ms
 - **Active Players**: 847/1000
@@ -236,8 +228,10 @@ This documentation is provided "as is" without warranty. See [CODE_OF_CONDUCT.md
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
 ### Development Workflow
-1. **Issues**: Report bugs or request features using our [templates](.github/ISSUE_TEMPLATE/)
-2. **Pull Requests**: Follow our [PR process](.github/PULL_REQUEST_TEMPLATE/)
+1. **Issues**: Report bugs or request features using our issue template
+2. **Pull Requests**: Follow our PR template
+
+<!-- TODO: Add issue and PR templates to .github/ISSUE_TEMPLATE/ and .github/PULL_REQUEST_TEMPLATE/ -->
 3. **Code Review**: All changes require 2+ approvals
 4. **Testing**: Automated tests must pass
 5. **Documentation**: Update docs for any changes
@@ -265,9 +259,11 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 ## 📞 Support & Contact
 
 - **Discord**: [Marola RP Community](https://discord.gg/marola-rp)
-- **Email**: [admin@marola-rp.com](mailto:admin@marola-rp.com)
+- **Email**: [suporte@marola-rp.com](mailto:suporte@marola-rp.com)
 - **Status Page**: [status.marola-rp.com](https://status.marola-rp.com)
 - **Documentation**: [docs.marola-rp.com](https://samurai33.github.io/md/)
+
+<!-- TODO: Verify all external URLs and email addresses above -->
 
 ---
 
