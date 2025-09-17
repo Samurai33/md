@@ -11,6 +11,7 @@
 [![Players Target](https://img.shields.io/badge/CCU-1000%2B-%237b5cff)](#metrics)
 [![License](https://img.shields.io/badge/license-Proprietary-lightgrey)](LICENSE.md)
 [![Quality Gate](https://img.shields.io/badge/quality-A+-green.svg)](#quality-assurance)
+[![Last Update](https://img.shields.io/badge/last_update-2025--09--17-informational)](CHANGELOG.md)
 
 [🇧🇷 Português](#português) • [🇬🇧 English](#english) • [📚 Documentation](#documentation) • [🚀 Quick Start](#quick-start)
 
@@ -31,9 +32,27 @@ Repositório com **toda a documentação oficial** do Marola RP (Tier 2), um ser
 
 ### Meta Técnica
 - **CCU Target**: 1000+ jogadores simultâneos
-- **Uptime SLA**: 99.5%
+- **Uptime SLA**: 99.9%
 - **Latência**: <50ms para players BR
 - **Budget**: $4,200-4,800 USD/mês
+
+### Estrutura da Documentação
+
+```mermaid
+graph TD
+    A[Documentação Marola] --> B[Documentos Core]
+    A --> C[Documentos Públicos]
+    A --> D[Documentos Especializados]
+    A --> E[Anexos]
+    B --> B1[Vision, Architecture, Security]
+    B --> B2[DevOps, GDD, Systems]
+    C --> C1[Rules, PenalCode, Guide]
+    C --> C2[FAQ, PrivacyPolicy]
+    D --> D1[SOPs, Roadmap, KPIs]
+    D --> D2[Community, Data-Privacy]
+    E --> E1[Assets, Templates]
+    E --> E2[Economy Tables, RACI]
+```
 
 ---
 
@@ -48,6 +67,81 @@ Repository with the **official documentation** of Marola RP (Tier 2), a professi
 - ⚖️ **Governance**: RACI matrix and well-defined processes
 - 🔒 **Security**: Multi-layered anti-cheat and continuous auditing
 - 📊 **Transparency**: Public KPIs and financial reports
+- 🌍 **Bilingual**: Complete PT/EN documentation
+
+### Technical Goals
+- **CCU Target**: 1000+ concurrent players
+- **Uptime SLA**: 99.9%
+- **Latency**: <50ms for BR players
+- **Budget**: $4,200-4,800 USD/month
+
+### Documentation Structure
+
+```mermaid
+graph TD
+    A[Marola Documentation] --> B[Core Documents]
+    A --> C[Public Documents]
+    A --> D[Specialized Documents]
+    A --> E[Annexes]
+    B --> B1[Vision, Architecture, Security]
+    B --> B2[DevOps, GDD, Systems]
+    C --> C1[Rules, PenalCode, Guide]
+    C --> C2[FAQ, PrivacyPolicy]
+    D --> D1[SOPs, Roadmap, KPIs]
+    D --> D2[Community, Data-Privacy]
+    E --> E1[Assets, Templates]
+    E --> E2[Economy Tables, RACI]
+```
+
+## 📚 Documentation
+
+### Core Documents
+- **Vision** ([(PT)](marola-docs/Vision.pt.md) / [(EN)](marola-docs/Vision.en.md)): Project vision and goals
+- **Architecture** ([(PT)](marola-docs/Architecture.pt.md) / [(EN)](marola-docs/Architecture.en.md)): Technical architecture
+- **Security** ([(PT)](marola-docs/Security.pt.md) / [(EN)](marola-docs/Security.en.md)): Security framework
+- **DevOps** ([(PT)](marola-docs/DevOps.pt.md) / [(EN)](marola-docs/DevOps.en.md)): Development operations
+- **GDD** ([(PT)](marola-docs/GDD.pt.md) / [(EN)](marola-docs/GDD.en.md)): Game design document
+- **Systems** ([(PT)](marola-docs/Systems.pt.md) / [(EN)](marola-docs/Systems.en.md)): Game systems
+
+### Public Documents
+- **Rules** ([(PT)](marola-docs/Public-Docs/Rules.pt.md) / [(EN)](marola-docs/Public-Docs/Rules.en.md)): Server rules
+- **PenalCode** ([(PT)](marola-docs/Public-Docs/PenalCode.pt.md) / [(EN)](marola-docs/Public-Docs/PenalCode.en.md)): Penal code
+- **Guide** ([(PT)](marola-docs/Public-Docs/Guide.pt.md) / [(EN)](marola-docs/Public-Docs/Guide.en.md)): Player guide
+- **FAQ** ([(PT)](marola-docs/Public-Docs/FAQ.pt.md) / [(EN)](marola-docs/Public-Docs/FAQ.en.md)): Frequent questions
+- **PrivacyPolicy** ([(PT)](marola-docs/Public-Docs/PrivacyPolicy.pt.md) / [(EN)](marola-docs/Public-Docs/PrivacyPolicy.en.md)): Privacy policy
+
+### Specialized Documents
+- **SOPs** ([(PT)](marola-docs/SOPs.pt.md) / [(EN)](marola-docs/SOPs.en.md)): Standard procedures
+- **Roadmap** ([(PT)](marola-docs/Roadmap.pt.md) / [(EN)](marola-docs/Roadmap.en.md)): Development roadmap
+- **KPIs** ([(PT)](marola-docs/KPIs.pt.md) / [(EN)](marola-docs/KPIs.en.md)): Performance indicators
+- **Community** ([(PT)](marola-docs/Community.pt.md) / [(EN)](marola-docs/Community.en.md)): Community guidelines
+- **Data-Privacy** ([(PT)](marola-docs/Data-Privacy.pt.md) / [(EN)](marola-docs/Data-Privacy.en.md)): Data protection
+
+### Annexes
+- **Assets** [(View)](marola-docs/Assets/README.md): Official assets
+- **Templates** ([(PT)](marola-docs/Annexes/Communication-Templates.pt.md) / [(EN)](marola-docs/Annexes/Communication-Templates.en.md))
+- **Economy** ([(PT)](marola-docs/Annexes/Economy-Tables.pt.md) / [(EN)](marola-docs/Annexes/Economy-Tables.en.md))
+- **RACI** ([(PT)](marola-docs/Annexes/RACI.pt.md) / [(EN)](marola-docs/Annexes/RACI.en.md))
+
+## 🚀 Quick Start
+
+1. **Join Discord**: [discord.gg/marola-rp](https://discord.gg/marola-rp)
+2. **Read Rules**: [Rules (PT)](marola-docs/Public-Docs/Rules.pt.md) / [(EN)](marola-docs/Public-Docs/Rules.en.md)
+3. **Apply Whitelist**: Follow Discord bot instructions
+4. **Read Guide**: [Guide (PT)](marola-docs/Public-Docs/Guide.pt.md) / [(EN)](marola-docs/Public-Docs/Guide.en.md)
+5. **Get Support**: Open ticket in Discord
+
+## 🤝 Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
+
+## 📄 License
+
+Proprietary software. See [LICENSE.md](LICENSE.md) for details.
+
+## ⚠️ Disclaimer
+
+This documentation is provided "as is" without warranty. See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 - 🌍 **Bilingual**: Complete PT/EN documentation
 
 ### Technical Goals
