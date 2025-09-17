@@ -1,13 +1,175 @@
 # Marola RP Penal Code
 
+![Status](https://img.shields.io/badge/status-official-brightgreen)
+![Last Update](https://img.shields.io/badge/last_update-2025--09--17-informational)
+![Version](https://img.shields.io/badge/version-2.0-blue)
+
 ## General Provisions
 
-### Penalty Types
-1. **In-Character (IC) Penalties**
-   - Jail time (minutes)
-   - Fines (M$)
-   - Property seizure
-   - License suspension
+### 1. Penalty Structure
+```mermaid
+graph TB
+    Offense[Criminal Offense] --> IC[In-Character]
+    Offense --> OOC[Out-of-Character]
+    IC --> Jail[Jail Time]
+    IC --> Fine[Fines]
+    IC --> Seizure[Property Seizure]
+    IC --> License[License Suspension]
+    OOC --> Warning[Warning]
+    OOC --> TempBan[Temporary Ban]
+    OOC --> PermBan[Permanent Ban]
+```
+
+### 2. Modifiers
+#### Aggravating Factors
+- Repeat offense (+25%)
+- Premeditation (+50%)
+- Position abuse (+75%)
+- Multiple victims (+25% per victim)
+
+#### Mitigating Factors
+- First offense (-25%)
+- Cooperation (-25%)
+- Self-defense (-50%)
+- Duress (-25%)
+
+## Criminal Offenses
+
+### 1. Crimes Against Life
+
+#### Homicide
+| Type | Jail Time | Fine | Admin Penalty |
+|------|-----------|------|---------------|
+| Intentional | 60-120m | M$50k-100k | 72h→perm |
+| Negligent | 20-40m | M$20k-40k | Warning |
+| RDM | 30-60m | M$30k-60k | 72h→perm |
+
+#### Assault
+| Type | Jail Time | Fine | Admin Penalty |
+|------|-----------|------|---------------|
+| Grievous | 30-60m | M$30k-60k | Warning→72h |
+| Simple | 15-30m | M$15k-30k | Warning |
+| Armed | 45-90m | M$45k-90k | 24h→72h |
+
+### 2. Traffic Violations
+
+#### Major Violations
+| Offense | Jail Time | Fine | Admin Penalty |
+|---------|-----------|------|---------------|
+| VDM | 30-60m | M$30k-60k | 72h→perm |
+| Reckless Driving | 10-20m | M$10k-20k | Warning |
+| Evading Police | 15-30m | M$15k-30k | Warning→24h |
+
+#### Vehicle-Related
+| Offense | Jail Time | Fine | Additional |
+|---------|-----------|------|------------|
+| Racing | 20-40m | M$20k-40k | License Suspension |
+| DUI | 15-30m | M$15k-30k | License Suspension |
+| Hit and Run | 25-50m | M$25k-50k | License Suspension |
+
+### 3. Property Crimes
+
+#### Theft
+| Type | Jail Time | Fine | Admin Penalty |
+|------|-----------|------|---------------|
+| Armed Robbery | 30-60m | M$40k-80k | Warning→72h |
+| Burglary | 20-40m | M$20k-40k | Warning |
+| Petty Theft | 10-20m | M$10k-20k | Warning |
+
+#### Extortion
+| Type | Jail Time | Fine | Admin Penalty |
+|------|-----------|------|---------------|
+| Kidnapping | 30-90m | M$50k-120k | 7d→perm |
+| Blackmail | 20-40m | M$20k-40k | Warning→72h |
+| Extortion | 25-50m | M$25k-50k | 72h→7d |
+
+### 4. Administrative Offenses
+
+#### Authority Resistance
+| Offense | Jail Time | Fine | Admin Penalty |
+|---------|-----------|------|---------------|
+| Contempt | 10-20m | M$10k-20k | Warning |
+| Obstruction | 15-30m | M$15k-30k | Warning→24h |
+| False Statement | 20-40m | M$20k-40k | 24h→72h |
+
+#### Corruption
+| Offense | Jail Time | Fine | Additional |
+|---------|-----------|------|------------|
+| Bribery | 30-60m | M$30k-60k | Position Loss |
+| Abuse of Power | 40-80m | M$40k-80k | Position Loss |
+| Evidence Tampering | 25-50m | M$25k-50k | Position Loss |
+
+### 5. Roleplay Violations
+
+#### Gameplay Violations
+| Offense | Jail Time | Admin Penalty | Appeals |
+|---------|-----------|---------------|---------|
+| Metagaming | 15-30m | 24h→30d | Yes |
+| Powergaming | 15-30m | 24h→30d | Yes |
+| Combat Logging | 30-60m | 72h→30d | Yes |
+| Exploiting | N/A | 30d→perm | Special |
+
+#### Community Violations
+| Offense | Jail Time | Admin Penalty | Appeals |
+|---------|-----------|---------------|---------|
+| Harassment | N/A | 7d→perm | Special |
+| Hate Speech | N/A | 7d→perm | No |
+| Cheating | N/A | 30d→perm | No |
+| Toxicity | N/A | 24h→7d | Yes |
+
+## Quick Reference Guide
+
+### Common Offenses
+1. **RDM/VDM**
+   - Jail: 30-60m
+   - Fine: M$30k-60k
+   - Admin: 72h→perm
+
+2. **Metagaming/Powergaming**
+   - Jail: 15-30m
+   - Admin: 24h→30d
+   - Appeals: Yes
+
+3. **Kidnapping/Extortion**
+   - Jail: 30-90m
+   - Fine: M$50k-120k
+   - Admin: 7d→perm
+
+4. **Exploits/Cheating**
+   - Admin: 30d→perm
+   - Appeals: Special
+   - Zero Tolerance
+
+### Penalty Progression
+```mermaid
+graph LR
+    First[First Offense] --> Warning[Warning]
+    Warning --> Short[Short Ban]
+    Short --> Long[Long Ban]
+    Long --> Perm[Permanent]
+```
+
+## Administrative Information
+
+### Appeals Process
+1. Wait 24 hours
+2. Submit evidence
+3. Be truthful
+4. Accept decision
+5. Follow up
+
+### Documentation
+- Screenshot evidence
+- Video clips
+- Witness statements
+- Admin reports
+- Appeal forms
+
+## Version Information
+- Last Update: 2025-09-17
+- Version: 2.0
+- Review: Weekly
+- Enforcement: Immediate
    - Criminal record points
 
 2. **Out-of-Character (OOC) Penalties**

@@ -1,13 +1,232 @@
 # Frequently Asked Questions (FAQ)
 
+![Status](https://img.shields.io/badge/status-official-brightgreen)
+![Last Update](https://img.shields.io/badge/last_update-2025--09--17-informational)
+![Version](https://img.shields.io/badge/version-2.0-blue)
+
+## 📋 Quick Navigation
+- [General Questions](#general-questions)
+- [Getting Started](#getting-started)
+- [Technical Issues](#technical-issues)
+- [Gameplay Questions](#gameplay-questions)
+- [Rules & Policies](#rules--policies)
+- [Character & RP](#character--rp)
+- [Economy & Jobs](#economy--jobs)
+- [Support & Help](#support--help)
+
+## General Questions
+
+### What is Marola RP?
+Marola RP is a realistic Brazilian roleplay server set in a neo-urban São Paulo environment, focusing on authentic experiences, economic simulation, and community interaction.
+
+### What makes Marola RP unique?
+- Authentic Brazilian setting
+- Advanced economic system
+- Professional staff team
+- Active community
+- Regular updates
+
+### Server Requirements
+| Component | Minimum | Recommended |
+|-----------|---------|-------------|
+| CPU | i5 4-core | i7 6-core |
+| RAM | 8GB | 16GB |
+| Storage | 50GB | 100GB SSD |
+| Internet | 10Mbps | 25Mbps |
+
 ## Getting Started
 
 ### How do I join the server?
-1. Join our Discord server: discord.gg/marola-rp
-2. Complete the whitelist application in #whitelist channel
-3. Pass the rules test
-4. Wait for whitelist approval (usually 24-48 hours)
-5. Connect using FiveM client
+```mermaid
+graph LR
+    Discord[Join Discord] --> Rules[Read Rules]
+    Rules --> Test[Pass Test]
+    Test --> Whitelist[Submit Whitelist]
+    Whitelist --> Approval[Get Approved]
+```
+
+#### Step-by-Step Process
+1. Join Discord: discord.gg/marola-rp
+2. Complete whitelist application
+3. Pass rules test
+4. Await approval (24-48h)
+5. Connect via FiveM
+
+### Essential Downloads
+| Software | Purpose | Required |
+|----------|----------|----------|
+| FiveM | Game Client | Yes |
+| Voice Mod | Communication | Yes |
+| Teamspeak | Voice Backup | No |
+| Discord | Community | Yes |
+
+## Technical Issues
+
+### Common Problems & Solutions
+
+#### Voice Issues
+1. **No Voice**
+   - Check voice activation
+   - Verify microphone
+   - Reinstall voice mod
+   - Clear cache
+
+2. **Poor Quality**
+   - Check bandwidth
+   - Update drivers
+   - Adjust settings
+   - Use wired connection
+
+#### Performance Issues
+| Issue | Quick Fix | Long-term Solution |
+|-------|-----------|-------------------|
+| Low FPS | Lower settings | Upgrade hardware |
+| Stuttering | Clear cache | SSD installation |
+| Crashes | Verify files | Clean installation |
+| Loading | Close programs | Increase RAM |
+
+### Optimization Tips
+- Update graphics drivers
+- Close background apps
+- Use performance mode
+- Regular maintenance
+- SSD recommended
+
+## Gameplay Questions
+
+### Basic Mechanics
+#### Essential Commands
+| Command | Function | Example |
+|---------|----------|---------|
+| /help | Show commands | /help |
+| /me | Actions | /me checks phone |
+| /do | Environment | /do Time shows 3PM |
+| /report | Call staff | /report Need help |
+
+### Character Development
+1. **Creating a Character**
+   - Choose background
+   - Select skills
+   - Plan career
+   - Define goals
+
+2. **Progression System**
+   - Gain experience
+   - Learn skills
+   - Build reputation
+   - Earn licenses
+
+## Rules & Policies
+
+### Common Rule Questions
+```mermaid
+graph TB
+    Question[Rule Question] --> Check[Check Rules]
+    Check --> Clear[Clear Answer]
+    Check --> Unclear[Unclear]
+    Unclear --> Staff[Ask Staff]
+    Clear --> Follow[Follow Rule]
+```
+
+### Penalty Appeals
+1. **Appeal Process**
+   - Wait 24 hours
+   - Gather evidence
+   - Submit appeal
+   - Await response
+
+2. **Appeal Tips**
+   - Be honest
+   - Show remorse
+   - Provide context
+   - Be respectful
+
+## Character & RP
+
+### Roleplay Guidelines
+#### Do's and Don'ts
+| Do | Don't |
+|----|-------|
+| Stay in character | Break character |
+| Use realistic scenarios | Use unrealistic actions |
+| Respect others' RP | Force RP on others |
+| Accept consequences | Combat log |
+
+### Common RP Scenarios
+1. **Interactions**
+   - Police encounters
+   - Business deals
+   - Social events
+   - Medical emergencies
+
+2. **Conflict Resolution**
+   - Negotiation
+   - Legal system
+   - Mediation
+   - Staff assistance
+
+## Economy & Jobs
+
+### Money Making
+#### Job Progression
+| Level | Income | Requirements |
+|-------|---------|--------------|
+| Entry | M$2k/h | None |
+| Mid | M$5k/h | Experience |
+| Expert | M$10k/h | Skills |
+
+### Business System
+1. **Starting a Business**
+   - Requirements
+   - Licensing
+   - Location
+   - Investment
+
+2. **Management**
+   - Staff hiring
+   - Stock control
+   - Finances
+   - Marketing
+
+## Support & Help
+
+### Getting Assistance
+```mermaid
+graph TB
+    Issue[Have Issue] --> Self[Self Help]
+    Self --> Fixed[Fixed]
+    Self --> NotFixed[Not Fixed]
+    NotFixed --> Discord[Discord Support]
+    NotFixed --> Ticket[Create Ticket]
+```
+
+### Contact Methods
+| Method | Use For | Response Time |
+|--------|---------|---------------|
+| /report | In-game issues | 5-15 min |
+| Discord | General help | 1-24 hours |
+| Ticket | Serious issues | 24-48 hours |
+| Appeal | Ban appeals | 48-72 hours |
+
+## Additional Resources
+
+### Useful Links
+- Server Website: marola-rp.com
+- Discord: discord.gg/marola-rp
+- Rules: marola-rp.com/rules
+- Guides: marola-rp.com/guides
+
+### Community Resources
+- Tutorial videos
+- Player guides
+- Community forums
+- Support channels
+
+## Version Information
+- Last Update: 2025-09-17
+- Version: 2.0
+- Review: Weekly
+- Updates: As needed
 
 ### What are the minimum PC requirements?
 - CPU: Intel i5-4670K or AMD equivalent

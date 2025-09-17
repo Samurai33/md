@@ -1,13 +1,172 @@
 # Marola RP Server Rules
 
-## Core Principles
-1. Roleplay comes first - maintain immersion at all times
-2. Respect all players and staff members
-3. Use common sense and realism in all situations
-4. Value your character's life as you would your own
-5. No out-of-character (OOC) toxicity or drama
+![Status](https://img.shields.io/badge/status-official-brightgreen)
+![Last Update](https://img.shields.io/badge/last_update-2025--09--17-informational)
+![Version](https://img.shields.io/badge/version-2.0-blue)
 
-## Definitions of Terms
+## Core Principles
+1. **Roleplay First**: Maintain immersion and stay in character
+2. **Mutual Respect**: Treat all players and staff with respect
+3. **Common Sense**: Use realistic judgment in all situations
+4. **Value Life**: Protect your character as you would yourself
+5. **Positive Community**: No OOC toxicity or drama
+
+## Essential Terminology
+
+### Prohibited Behaviors
+| Term | Definition | Example | Penalty |
+|------|------------|---------|---------|
+| RDM (Random Death Match) | Killing without RP motivation | Shooting random players | 72h Ban |
+| VDM (Vehicle Death Match) | Using vehicles as weapons | Intentional ramming | 72h Ban |
+| NVL (No Value of Life) | Unrealistic disregard for life | Jumping off buildings | 24h Ban |
+| Metagaming | Using OOC info in-game | Using Discord info in-game | 24h Ban |
+| Powergaming | Forcing actions on others | "Hits you without miss" | 24h Ban |
+| Combat Logging | Disconnecting during RP | Leaving during arrest | 72h Ban |
+
+## General Rules
+
+### 1. Communication Rules
+- **In-Character (IC)**
+  - Use proper character voice
+  - Maintain realistic reactions
+  - Keep accent/personality consistent
+  - No breaking character
+
+- **Out-of-Character (OOC)**
+  - Use /ooc for technical issues only
+  - Keep OOC chat minimal
+  - No OOC drama or arguments
+  - Report issues to staff
+
+### 2. Roleplay Quality
+```mermaid
+graph TB
+    Quality[Quality RP] --> Immersion[Stay in Character]
+    Quality --> Realism[Be Realistic]
+    Quality --> Respect[Respect Others]
+    Quality --> Story[Create Stories]
+```
+
+#### Standards
+- Create meaningful interactions
+- Develop character backstory
+- Follow realistic scenarios
+- Allow others to roleplay
+- Accept consequences
+
+### 3. Criminal Activities
+| Activity | Requirements | Cooldown | Players |
+|----------|--------------|----------|----------|
+| Robbery | Proper planning | 2 hours | 2-4 |
+| Kidnapping | Valid reason | 4 hours | 2-3 |
+| Store Heist | Equipment | 6 hours | 3-5 |
+| Bank Heist | Full plan | 12 hours | 4-6 |
+
+### 4. Vehicle Usage
+- Follow traffic laws
+- Use appropriate vehicles
+- Maintain realistic speeds
+- Report vehicle bugs
+- No vehicle exploits
+
+### 5. Property Rules
+- Respect private property
+- No trespassing without RP
+- Lock doors when leaving
+- Report property issues
+- Follow zoning laws
+
+### 6. Combat Rules
+#### Engagement Protocol
+1. **Initiation**
+   - Clear RP reason required
+   - Verbal warning when appropriate
+   - No surprise executions
+   - Give fair chances
+
+2. **Combat Conduct**
+   - No combat logging
+   - Realistic weapon usage
+   - Appropriate force
+   - Report bugs/exploits
+
+### 7. Evidence and Reports
+- Record serious incidents
+- Keep clips for 7 days
+- Report rule violations
+- Provide clear evidence
+- Follow report format
+
+## Enforcement System
+
+### Penalty Structure
+```mermaid
+graph LR
+    Violation[Rule Violation] --> Warning[Warning]
+    Warning --> TempBan[Temporary Ban]
+    TempBan --> PermBan[Permanent Ban]
+    Warning --> RPPunish[RP Punishment]
+```
+
+### Penalty Levels
+| Level | Action | Duration | Appeal |
+|-------|--------|----------|--------|
+| 1 | Warning | Immediate | No |
+| 2 | RP Jail/Fine | 1-24 hours | Yes |
+| 3 | Temporary Ban | 24h-30d | Yes |
+| 4 | Permanent Ban | Infinite | Special |
+
+### Appeal Process
+1. Wait 24 hours after penalty
+2. Use official appeal format
+3. Provide all evidence
+4. Be honest and respectful
+5. Accept final decision
+
+## Staff Interaction
+
+### Staff Authority
+- Follow staff instructions
+- Respect staff decisions
+- Use proper appeal process
+- Report staff misconduct
+- Maintain professionalism
+
+### Communication Channels
+1. In-Game Reports
+2. Discord Tickets
+3. Appeal Forum
+4. Staff DMs (when allowed)
+5. Emergency Contact
+
+## Additional Guidelines
+
+### Recording Policy
+- Record serious RP
+- Save clips of incidents
+- Maintain evidence
+- Share when requested
+- Respect privacy
+
+### Community Standards
+- Be helpful to new players
+- Report bugs and exploits
+- Participate constructively
+- Follow Discord rules
+- Support positive RP
+
+## Updates & Changes
+- Rules updated regularly
+- Changes announced in Discord
+- Follow all current rules
+- Read update notices
+- Ask staff if unclear
+
+## Version Information
+- Last Update: 2025-09-17
+- Version: 2.0
+- Review: Weekly
+- Enforcement: Immediate
 
 ### Basic RP Violations
 - **RDM (Random Death Match)**: Killing without valid RP reason or initiation

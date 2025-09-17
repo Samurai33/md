@@ -1,13 +1,232 @@
-# Perguntas Frequentes (FAQ) — Marola RP
+# Perguntas Frequentes (FAQ)
 
-![Status](https://img.shields.io/badge/status-atualizado-brightgreen)
-![Versão](https://img.shields.io/badge/versão-1.0-blue)
-![Data](https://img.shields.io/badge/data-2025--09--17-informational)
+![Status](https://img.shields.io/badge/status-oficial-brightgreen)
+![Última Atualização](https://img.shields.io/badge/última_atualização-2025--09--17-informational)
+![Versão](https://img.shields.io/badge/versão-2.0-blue)
 
-## 📋 Índice
+## 📋 Navegação Rápida
 - [Questões Gerais](#questões-gerais)
-- [Whitelist e Processo de Entrada](#whitelist-e-processo-de-entrada)
-- [Desempenho e Problemas Técnicos](#desempenho-e-problemas-técnicos)
+- [Primeiros Passos](#primeiros-passos)
+- [Problemas Técnicos](#problemas-técnicos)
+- [Questões de Gameplay](#questões-de-gameplay)
+- [Regras & Políticas](#regras--políticas)
+- [Personagem & RP](#personagem--rp)
+- [Economia & Empregos](#economia--empregos)
+- [Suporte & Ajuda](#suporte--ajuda)
+
+## Questões Gerais
+
+### O que é Marola RP?
+Marola RP é um servidor de roleplay brasileiro realista ambientado em uma São Paulo neo-urbana, focando em experiências autênticas, simulação econômica e interação comunitária.
+
+### O que torna o Marola RP único?
+- Ambientação brasileira autêntica
+- Sistema econômico avançado
+- Equipe staff profissional
+- Comunidade ativa
+- Atualizações regulares
+
+### Requisitos do Servidor
+| Componente | Mínimo | Recomendado |
+|------------|---------|-------------|
+| CPU | i5 4-core | i7 6-core |
+| RAM | 8GB | 16GB |
+| Armazenamento | 50GB | 100GB SSD |
+| Internet | 10Mbps | 25Mbps |
+
+## Primeiros Passos
+
+### Como entro no servidor?
+```mermaid
+graph LR
+    Discord[Entrar Discord] --> Rules[Ler Regras]
+    Rules --> Test[Passar no Teste]
+    Test --> Whitelist[Enviar Whitelist]
+    Whitelist --> Approval[Ser Aprovado]
+```
+
+#### Processo Passo a Passo
+1. Entre no Discord: discord.gg/marola-rp
+2. Complete a aplicação whitelist
+3. Passe no teste de regras
+4. Aguarde aprovação (24-48h)
+5. Conecte via FiveM
+
+### Downloads Essenciais
+| Software | Propósito | Obrigatório |
+|----------|-----------|-------------|
+| FiveM | Cliente do Jogo | Sim |
+| Voice Mod | Comunicação | Sim |
+| Teamspeak | Backup de Voz | Não |
+| Discord | Comunidade | Sim |
+
+## Problemas Técnicos
+
+### Problemas Comuns & Soluções
+
+#### Problemas de Voz
+1. **Sem Voz**
+   - Verifique ativação de voz
+   - Verifique microfone
+   - Reinstale voice mod
+   - Limpe cache
+
+2. **Qualidade Ruim**
+   - Verifique banda
+   - Atualize drivers
+   - Ajuste configurações
+   - Use conexão cabeada
+
+#### Problemas de Performance
+| Problema | Solução Rápida | Solução Definitiva |
+|----------|----------------|-------------------|
+| FPS Baixo | Baixar config | Upgrade hardware |
+| Travamentos | Limpar cache | Instalação SSD |
+| Crashes | Verificar arquivos | Instalação limpa |
+| Carregamento | Fechar programas | Aumentar RAM |
+
+### Dicas de Otimização
+- Atualizar drivers gráficos
+- Fechar apps em background
+- Usar modo performance
+- Manutenção regular
+- SSD recomendado
+
+## Questões de Gameplay
+
+### Mecânicas Básicas
+#### Comandos Essenciais
+| Comando | Função | Exemplo |
+|---------|---------|---------|
+| /help | Mostrar comandos | /help |
+| /me | Ações | /me checa celular |
+| /do | Ambiente | /do Relógio marca 15h |
+| /report | Chamar staff | /report Preciso de ajuda |
+
+### Desenvolvimento do Personagem
+1. **Criando um Personagem**
+   - Escolher background
+   - Selecionar habilidades
+   - Planejar carreira
+   - Definir objetivos
+
+2. **Sistema de Progressão**
+   - Ganhar experiência
+   - Aprender habilidades
+   - Construir reputação
+   - Obter licenças
+
+## Regras & Políticas
+
+### Questões Comuns sobre Regras
+```mermaid
+graph TB
+    Question[Dúvida de Regra] --> Check[Checar Regras]
+    Check --> Clear[Resposta Clara]
+    Check --> Unclear[Não Clara]
+    Unclear --> Staff[Perguntar Staff]
+    Clear --> Follow[Seguir Regra]
+```
+
+### Recursos de Penalidades
+1. **Processo de Recurso**
+   - Aguarde 24 horas
+   - Reúna evidências
+   - Envie recurso
+   - Aguarde resposta
+
+2. **Dicas de Recurso**
+   - Seja honesto
+   - Mostre arrependimento
+   - Forneça contexto
+   - Seja respeitoso
+
+## Personagem & RP
+
+### Diretrizes de Roleplay
+#### O que Fazer e Não Fazer
+| Fazer | Não Fazer |
+|-------|-----------|
+| Manter personagem | Quebrar personagem |
+| Usar cenários realistas | Usar ações irrealistas |
+| Respeitar RP dos outros | Forçar RP nos outros |
+| Aceitar consequências | Combat logging |
+
+### Cenários Comuns de RP
+1. **Interações**
+   - Encontros policiais
+   - Negócios
+   - Eventos sociais
+   - Emergências médicas
+
+2. **Resolução de Conflitos**
+   - Negociação
+   - Sistema legal
+   - Mediação
+   - Assistência staff
+
+## Economia & Empregos
+
+### Ganhando Dinheiro
+#### Progressão de Emprego
+| Nível | Renda | Requisitos |
+|-------|--------|------------|
+| Entrada | M$2k/h | Nenhum |
+| Médio | M$5k/h | Experiência |
+| Especialista | M$10k/h | Habilidades |
+
+### Sistema de Negócios
+1. **Iniciando um Negócio**
+   - Requisitos
+   - Licenciamento
+   - Localização
+   - Investimento
+
+2. **Gestão**
+   - Contratação
+   - Controle de estoque
+   - Finanças
+   - Marketing
+
+## Suporte & Ajuda
+
+### Obtendo Assistência
+```mermaid
+graph TB
+    Issue[Ter Problema] --> Self[Auto Ajuda]
+    Self --> Fixed[Resolvido]
+    Self --> NotFixed[Não Resolvido]
+    NotFixed --> Discord[Suporte Discord]
+    NotFixed --> Ticket[Criar Ticket]
+```
+
+### Métodos de Contato
+| Método | Usar Para | Tempo de Resposta |
+|--------|-----------|-------------------|
+| /report | Problemas in-game | 5-15 min |
+| Discord | Ajuda geral | 1-24 horas |
+| Ticket | Problemas sérios | 24-48 horas |
+| Recurso | Recursos de ban | 48-72 horas |
+
+## Recursos Adicionais
+
+### Links Úteis
+- Site do Servidor: marola-rp.com
+- Discord: discord.gg/marola-rp
+- Regras: marola-rp.com/rules
+- Guias: marola-rp.com/guides
+
+### Recursos da Comunidade
+- Vídeos tutoriais
+- Guias de jogadores
+- Fóruns da comunidade
+- Canais de suporte
+
+## Informações de Versão
+- Última Atualização: 2025-09-17
+- Versão: 2.0
+- Revisão: Semanal
+- Atualizações: Conforme necessário
 - [Regras e Condutas](#regras-e-condutas)
 - [Suporte e Denúncias](#suporte-e-denúncias)
 - [Economia e Progressão](#economia-e-progressão)
