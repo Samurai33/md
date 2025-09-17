@@ -22,24 +22,24 @@ Este documento ajuda a navegar pela estrutura completa da documentação do Maro
 ## 🔍 Mapa de Documentos / Document Map
 
 ### Documentação Core / Core Documentation
-- [Visão / Vision](docs/Vision.pt.md)
-- [Governança / Governance](docs/Governance.pt.md)
-- [GDD / Game Design Document](docs/GDD.pt.md)
-- [Sistemas / Systems](docs/Systems.pt.md)
-- [Arquitetura / Architecture](docs/Architecture.pt.md)
-- [Segurança / Security](docs/Security.pt.md)
-- [DevOps](docs/DevOps.pt.md)
-- [Finanças / Finance](docs/Finance.pt.md)
+- [Visão / Vision](Vision.pt.md)
+- [Governança / Governance](Governance.pt.md)
+- [GDD / Game Design Document](GDD.pt.md)
+- [Sistemas / Systems](Systems.pt.md)
+- [Arquitetura / Architecture](Architecture.pt.md)
+- [Segurança / Security](Security.pt.md)
+- [DevOps](DevOps.pt.md)
+- [Finanças / Finance](Finance.pt.md)
 
 ### Documentação Técnica / Technical Documentation
-- [ADR 001: Estrutura Bilíngue](docs/adr/001-estrutura-bilingue.md)
-- [ADR 002: vRPex Framework](docs/adr/002-vrpex-framework.md)
-- [Guia de Estilo / Style Guide](docs/processes/STYLE_GUIDE.md)
-- [Processo de Release / Release Process](docs/processes/RELEASE_PROCESS.md)
+- [ADR 001: Estrutura Bilíngue](ADR/001-estrutura-bilingue.md)
+- [ADR 002: vRPex Framework](ADR/002-vrpex-framework.md)
+- [Guia de Estilo / Style Guide](Processes/STYLE_GUIDE.md)
+- [Processo de Release / Release Process](Processes/RELEASE_PROCESS.md)
 
 ### Documentos para Jogadores / Player Documents
-- [Regras / Rules](docs/public/Rules.pt.md)
-- [Código Penal / Penal Code](docs/public/PenalCode.pt.md)
+- [Regras / Rules](Public-Docs/Rules.pt.md)
+- [Código Penal / Penal Code](Public-Docs/PenalCode.pt.md)
 - [Guia do Jogador / Player Guide](docs/public/Guide.pt.md)
 - [FAQ / Perguntas Frequentes](docs/public/FAQ.pt.md)
 - [Política de Privacidade / Privacy Policy](docs/public/PrivacyPolicy.pt.md)

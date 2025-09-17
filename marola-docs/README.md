@@ -127,10 +127,10 @@ Repository with the **official documentation** of Marola RP (Tier 2), a professi
 ## 🚀 Quick Start
 
 ### For Players
-1. Read the [Rules](docs/public/Rules.pt.md) and [Player Guide](docs/public/Guide.pt.md)
+1. Read the [Rules](Public-Docs/Rules.pt.md) and [Player Guide](Public-Docs/Guide.pt.md)
 2. Join our [Discord Server](https://discord.gg/marola-rp)
 3. Complete the whitelist process
-4. Follow the [Getting Started Guide](docs/public/Guide.pt.md#getting-started)
+4. Follow the [Getting Started Guide](Public-Docs/Guide.pt.md#getting-started)
 
 ### For Contributors
 1. Fork this repository
@@ -140,10 +140,10 @@ Repository with the **official documentation** of Marola RP (Tier 2), a professi
 5. Submit a Pull Request following our [PR Template](.github/PULL_REQUEST_TEMPLATE/pull_request.md)
 
 ### For Developers
-1. Check the [Architecture](docs/Architecture.pt.md) document
-2. Review our [DevOps](docs/DevOps.pt.md) processes
-3. Follow our [Security Guidelines](docs/Security.pt.md)
-4. Consult the [ADRs](docs/adr/) for architectural decisions
+1. Check the [Architecture](Architecture.pt.md) document
+2. Review our [DevOps](DevOps.pt.md) processes
+3. Follow our [Security Guidelines](Security.pt.md)
+4. Consult the [ADRs](ADR/) for architectural decisions
 
 ---
 
