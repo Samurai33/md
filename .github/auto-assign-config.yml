@@ -1,0 +1,28 @@
+# Configuration for auto-assign action
+
+# Set to true to assign PR author as assignee
+addAssignees: true
+
+# A list of reviewers to be added to pull requests (GitHub user names)
+reviewers:
+  - tech-lead
+  - docs-manager
+  - game-design-lead
+
+# A number of reviewers added to the pull request
+# Set 0 to add all the reviewers (default)
+numberOfReviewers: 2
+
+# A list of assignees, overrides reviewers if set
+assignees:
+  - tech-lead
+
+# A number of assignees to add to the pull request
+# Set to 0 to add all of the assignees.
+# Uses numberOfReviewers if unset.
+numberOfAssignees: 1
+
+# A list of keywords to be skipped if present in the pull request title
+skipKeywords:
+  - wip
+  - draft

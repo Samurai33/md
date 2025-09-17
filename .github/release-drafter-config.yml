@@ -1,0 +1,62 @@
+name-template: 'v$RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+categories:
+  - title: '🚀 Novos Documentos'
+    labels:
+      - 'new-doc'
+      - 'feature'
+  - title: '🔧 Atualizações'
+    labels:
+      - 'update'
+      - 'enhancement'
+  - title: '🐛 Correções'
+    labels:
+      - 'fix'
+      - 'bug'
+  - title: '🧰 Manutenção'
+    labels:
+      - 'chore'
+      - 'maintenance'
+      - 'infrastructure'
+
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+version-resolver:
+  major:
+    labels:
+      - 'major'
+      - 'breaking'
+  minor:
+    labels:
+      - 'minor'
+      - 'feature'
+      - 'new-doc'
+      - 'enhancement'
+  patch:
+    labels:
+      - 'patch'
+      - 'fix'
+      - 'bug'
+      - 'maintenance'
+      - 'docs'
+      - 'dependencies'
+      - 'security'
+  default: patch
+
+template: |
+  ## Marola RP Docs - Release $RESOLVED_VERSION
+
+  $CHANGES
+
+  ### 📦 Novos documentos e melhorias: $CATEGORY_FORMATTED_ITEMS[🚀 Novos Documentos]
+  
+  ### 🔄 Atualizações de conteúdo: $CATEGORY_FORMATTED_ITEMS[🔧 Atualizações]
+  
+  ### 🐛 Correções: $CATEGORY_FORMATTED_ITEMS[🐛 Correções]
+  
+  ### 🔧 Outras melhorias: $CATEGORY_FORMATTED_ITEMS[🧰 Manutenção]
+
+  ### 👥 Colaboradores
+  
+  $CONTRIBUTORS
+  
+  _Release automática gerada por [Release Drafter](https://github.com/release-drafter/release-drafter)_

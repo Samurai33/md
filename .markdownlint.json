@@ -1,0 +1,15 @@
+{
+  "default": true,
+  "MD001": true,
+  "MD003": { "style": "atx" },
+  "MD004": { "style": "asterisk" },
+  "MD007": { "indent": 2 },
+  "MD013": { "line_length": 120 },
+  "MD024": { "allow_different_nesting": true },
+  "MD026": { "punctuation": ".,;:!。，；：！" },
+  "MD029": { "style": "ordered" },
+  "MD033": { "allowed_elements": ["div", "img", "br", "p", "details", "summary"] },
+  "MD040": true,
+  "MD041": true,
+  "MD046": { "style": "fenced" }
+}

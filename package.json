@@ -1,0 +1,30 @@
+{
+  "name": "marola-rp-docs",
+  "version": "0.1.0",
+  "description": "Documentação oficial do Marola RP",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node scripts/lint-markdown.js",
+    "links": "node scripts/check-links.js",
+    "spell": "node scripts/spell-check.js",
+    "quality": "npm run lint && npm run links && npm run spell",
+    "docs:serve": "docsify serve docs",
+    "docs:build": "mkdir -p build && cp -r docs/* build/ && cp README.md build/ && cp CONTRIBUTING.md build/ && cp CODE_OF_CONDUCT.md build/ && cp CHANGELOG.md build/"
+  },
+  "keywords": [
+    "documentation",
+    "fivem",
+    "roleplay",
+    "vrpex"
+  ],
+  "author": "Marola RP Team",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "cspell": "^6.31.1",
+    "docsify-cli": "^4.4.4",
+    "glob": "^8.0.3",
+    "markdown-link-check": "^3.10.3",
+    "markdownlint": "^0.27.0"
+  }
+}

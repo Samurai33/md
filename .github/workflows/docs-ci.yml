@@ -1,0 +1,60 @@
+name: Documentation CI
+on:
+  push:
+    branches: [ main, develop ]
+    paths:
+      - '**.md'
+      - '.github/workflows/docs-ci.yml'
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - '**.md'
+      - '.github/workflows/docs-ci.yml'
+
+jobs:
+  markdown-lint:
+    name: Lint Markdown Files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Markdown Lint
+        uses: avto-dev/markdown-lint@v1
+        with:
+          config: '.markdownlint.json'
+          args: '**/*.md'
+        
+  markdown-link-check:
+    name: Check Markdown Links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Check Links
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'yes'
+          config-file: '.markdown-link-check.json'
+          folder-path: '.'
+          
+  build-docs:
+    name: Build Documentation
+    needs: [markdown-lint, markdown-link-check]
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          
+      - name: Build docs
+        run: |
+          echo "Building documentation for deployment"
+          # Preparação para futura implementação de site de documentação
