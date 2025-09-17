@@ -1,32 +1,60 @@
-# Marola RP — Documentação Oficial / Official Documentation
+# Marola RP Documentation# Marola RP — Documentação Oficial / Official Documentation
 
-<div align="center">
 
-![Marola RP Logo](marola-docs/Assets/logos/marola-logo.png)
 
-[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://samurai33.github.io/md/)
+This directory contains the complete documentation for Marola RP.<div align="center">
+
+
+
+See the [main README](../README.md) in the root directory for full documentation and getting started guide.![Marola RP Logo](Assets/logos/marola-logo.png)
+
+
+
+## Directory Structure[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://samurai33.github.io/md/)
+
 [![Status](https://img.shields.io/badge/status-active-brightgreen)](https://status.marola-rp.com)
-[![Framework](https://img.shields.io/badge/framework-vRPex-%23ff6f00)](https://github.com/vRPex/vRPex)
-[![Platform](https://img.shields.io/badge/platform-FiveM/Cfx.re-%2300bcd4)](https://fivem.net)
-[![Players Target](https://img.shields.io/badge/CCU-1000%2B-%237b5cff)](#metrics)
-[![License](https://img.shields.io/badge/license-Proprietary-lightgrey)](LICENSE.md)
-[![Quality Gate](https://img.shields.io/badge/quality-A+-green.svg)](#quality-assurance)
 
-[🇧🇷 Português](#português) • [🇬🇧 English](#english) • [📚 Documentation](#documentation) • [🚀 Quick Start](#quick-start)
+```[![Framework](https://img.shields.io/badge/framework-vRPex-%23ff6f00)](https://github.com/vRPex/vRPex)
 
-</div>
+marola-docs/[![Platform](https://img.shields.io/badge/platform-FiveM/Cfx.re-%2300bcd4)](https://fivem.net)
 
-## 🇧🇷 Português
+├── Core Documentation     # Main documentation files (.en.md and .pt.md)[![Players Target](https://img.shields.io/badge/CCU-1000%2B-%237b5cff)](#metrics)
+
+├── ADR/                  # Architecture Decision Records[![License](https://img.shields.io/badge/license-Proprietary-lightgrey)](LICENSE.md)
+
+├── Annexes/              # Supporting documentation[![Quality Gate](https://img.shields.io/badge/quality-A+-green.svg)](#quality-assurance)
+
+├── Assets/               # Images and media files
+
+│   ├── icons/           # UI and feature icons[🇧🇷 Português](#português) • [🇬🇧 English](#english) • [📚 Documentation](#documentation) • [🚀 Quick Start](#quick-start)
+
+│   ├── images/          # Screenshots and general images
+
+│   └── logos/           # Brand logos and identity assets</div>
+
+├── Processes/           # Development processes
+
+└── Public-Docs/         # User-facing documentation## 🇧🇷 Português
+
+```
 
 ### Sobre o Projeto
-Repositório com **toda a documentação oficial** do Marola RP (Tier 2), um servidor de roleplay profissional pronto para produção no FiveM. Focamos em **imersão**, **estabilidade**, **segurança**, **governança clara** e **monetização ética** (sem pay‑to‑win).
 
-### Características Principais
-- 🏙️ **Ambientação**: São Paulo neo-urbana (Augusta, Centro, Zona Leste)
-- 🎵 **Identidade Musical**: MarolaBeat com DJ ThOne
-- ⚖️ **Governança**: RACI matrix e processos bem definidos
-- 🔒 **Segurança**: Anti-cheat multicamadas e auditoria contínua
-- 📊 **Transparência**: KPIs públicos e relatórios financeiros
+## Quick LinksRepositório com **toda a documentação oficial** do Marola RP (Tier 2), um servidor de roleplay profissional pronto para produção no FiveM. Focamos em **imersão**, **estabilidade**, **segurança**, **governança clara** e **monetização ética** (sem pay‑to‑win).
+
+
+
+- [Vision (PT)](Vision.pt.md) / [Vision (EN)](Vision.en.md)### Características Principais
+
+- [Architecture (PT)](Architecture.pt.md) / [Architecture (EN)](Architecture.en.md)- 🏙️ **Ambientação**: São Paulo neo-urbana (Augusta, Centro, Zona Leste)
+
+- [Public Documentation](Public-Docs/README.md)- 🎵 **Identidade Musical**: MarolaBeat com DJ ThOne
+
+- [Development Processes](Processes/README.md)- ⚖️ **Governança**: RACI matrix e processos bem definidos
+
+- [Architectural Decisions](ADR/README.md)- 🔒 **Segurança**: Anti-cheat multicamadas e auditoria contínua
+
+- [Asset Guidelines](Assets/README.md)- 📊 **Transparência**: KPIs públicos e relatórios financeiros
 - 🌍 **Bilíngue**: Documentação completa PT/EN
 
 ### Meta Técnica
@@ -99,10 +127,10 @@ Repository with the **official documentation** of Marola RP (Tier 2), a professi
 ## 🚀 Quick Start
 
 ### For Players
-1. Read the [Rules](Public-Docs/Rules.pt.md) and [Player Guide](Public-Docs/Guide.pt.md)
+1. Read the [Rules](docs/public/Rules.pt.md) and [Player Guide](docs/public/Guide.pt.md)
 2. Join our [Discord Server](https://discord.gg/marola-rp)
 3. Complete the whitelist process
-4. Follow the [Getting Started Guide](Public-Docs/Guide.pt.md#getting-started)
+4. Follow the [Getting Started Guide](docs/public/Guide.pt.md#getting-started)
 
 ### For Contributors
 1. Fork this repository
@@ -112,10 +140,10 @@ Repository with the **official documentation** of Marola RP (Tier 2), a professi
 5. Submit a Pull Request following our [PR Template](.github/PULL_REQUEST_TEMPLATE/pull_request.md)
 
 ### For Developers
-1. Check the [Architecture](Architecture.pt.md) document
-2. Review our [DevOps](DevOps.pt.md) processes
-3. Follow our [Security Guidelines](Security.pt.md)
-4. Consult the [ADRs](ADR/) for architectural decisions
+1. Check the [Architecture](docs/Architecture.pt.md) document
+2. Review our [DevOps](docs/DevOps.pt.md) processes
+3. Follow our [Security Guidelines](docs/Security.pt.md)
+4. Consult the [ADRs](docs/adr/) for architectural decisions
 
 ---
 
