@@ -125,7 +125,7 @@ Contribuições: [CONTRIBUTING.md](CONTRIBUTING.md) · [Código de conduta](CODE
 | | |
 |---|---|
 | **Documentos** | Núcleo, públicos, gestão e anexos em PT e EN |
-| **Metas técnicas** | Capacidade, uptime e latência descritas na [Arquitetura](marola-docs/Architecture.pt.md) são metas, não números medidos |
+| **Metas técnicas** | Capacidade, uptime e latência descritas em [KPIs](marola-docs/KPIs.pt.md) e no [Roadmap](marola-docs/Roadmap.pt.md) são metas, não números medidos |
 | **Código do servidor** | Privado |
 
 ---
